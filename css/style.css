@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {}
+
+.box {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #808080;
+}
+
+.tou {
+
+  color: white;
+  font-size: 45px;
+  padding: 0 0 5px 20px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.z {
+  width: 100%;
+  height: 320px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.dh {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  margin-top: 3px;
+  color: white;
+}
+
+.dh li {
+  float: left;
+  line-height: 40px;
+  width: 80px;
+  text-align: center;
+}
+
+.dh li:nth-child(1) {
+  background-color: #E93325;
+}
+
+.nr {
+  width: 100%;
+  padding: 15px;
+}
+
+.nr1 {
+  float: left;
+  margin-right: 25px;
+}
+
+.nr1 li {
+  width: 160px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  background-color: #5DB1DF;
+  margin-bottom: 8px;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.nr2 {
+  float: left;
+  padding-top: 40px;
+}
+
+.nr2 h1 {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.nr2 p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.di {
+  width: 100px;
+  line-height: 100px;
+  color: white;
+  font-size: 18px;
+  padding-left: 10px;
+}
